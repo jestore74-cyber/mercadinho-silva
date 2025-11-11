@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERCADINHO SILVA - Preço Baixo Todo Dia!</title> 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-yellow': '#FFD700', // Amarelo para destaque e CTA principal
+                        'price-red': '#DC2626',      // Vermelho para preços e ofertas
+                        'dark-bg': '#1f2937',        // Cinza escuro/Preto para fundos
+                        'light-bg': '#f3f4f6',       // Cinza claro/Branco para o fundo principal
+                        'text-dark': '#111827',      // Preto para texto
+                        'text-light': '#ffffff',     // Branco para texto
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-light-bg text-text-dark">
+
+    <header class="bg-dark-bg p-4 shadow-lg sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-primary-yellow">
+                <i class="fas fa-shopping-cart mr-2"></i> MERCADINHO SILVA
+            </h1>
+            <a href="tel:5574988357144" class="bg-primary-yellow text-text-dark font-semibold py-2 px-4 rounded-lg hover:bg-yellow-400 transition duration-300">
+                Ligar/Pedir
+            </a>
+        </div>
+    </header>
+
+    <main class="pt-16 pb-16 md:pt-24 md:pb-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            
+            <h2 class="text-4xl md:text-6xl font-extrabold tracking-tight text-text-dark mb-4">
+                A Qualidade que Você Confia com <span class="text-price-red">Preço Baixo Todo Dia!</span>
+            </h2>
+
+            <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-5 sm:text-2xl">
+                Seu Mercadinho Silva com **alimentos frescos**, produtos de **limpeza** e **higiene pessoal**. Peça e receba em minutos!
+            </p>
+
+            <div class="mt-10">
+                <a href="https://wa.me/5574988357144" target="_blank" class="w-full md:w-auto inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-xl shadow-lg text-text-dark bg-primary-yellow hover:bg-yellow-400 transition duration-300 transform hover:scale-105 font-bold text-lg">
+                    FAÇA SEU PEDIDO AGORA! (WhatsApp)
+                </a>
+            </div>
+
+            <p class="mt-4 text-lg font-bold text-price-red">
+                Confira nossas ofertas abaixo e economize!
+            </p>
+
+        </div>
+    </main>
+    <section id="beneficios" class="py-16 bg-light-bg">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h3 class="text-3xl font-extrabold text-text-dark mb-12">O que o Mercadinho Silva oferece de melhor?</h3>
+            
+            <div class="mt-10 grid grid-cols-1 gap-10 md:grid-cols-3">
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <div class="flex-shrink-0 mb-4">
+                        <i class="fas fa-seedling text-4xl text-price-red"></i> 
+                    </div>
+                    <h4 class="text-xl font-bold text-text-dark mb-2">Qualidade e Frescor Diário</h4>
+                    <p class="text-gray-600">Alimentos de hortifruti selecionados e produtos de mercearia sempre dentro do prazo de validade.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <div class="flex-shrink-0 mb-4">
+                        <i class="fas fa-truck-fast text-4xl text-primary-yellow"></i> 
+                    </div>
+                    <h4 class="text-xl font-bold text-text-dark mb-2">Entrega Expressa no Bairro</h4>
+                    <p class="text-gray-600">Receba suas compras rapidamente sem precisar pegar trânsito ou enfrentar filas.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <div class="flex-shrink-0 mb-4">
+                        <i class="fas fa-boxes-stacked text-4xl text-dark-bg"></i> 
+                    </div>
+                    <h4 class="text-xl font-bold text-text-dark mb-2">Ampla Variedade de Itens</h4>
+                    <p class="text-gray-600">De limpeza pesada a cosméticos, encontre tudo o que precisa em um só lugar com ótimos preços.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="ofertas" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h3 class="text-4xl font-extrabold text-text-dark mb-12">
+                Ofertas Imperdíveis <span class="text-price-red">Desta Semana!</span>
+            </h3>
+            
+            <div class="mt-10 grid grid-cols-1 gap-8 md:grid-cols-3">
+                
+                <div class="bg-light-bg p-6 rounded-xl shadow-md border-t-4 border-primary-yellow hover:shadow-xl transition duration-300">
+                    <div class="bg-gray-300 h-40 flex items-center justify-center rounded-lg mb-4 text-gray-700 font-semibold">
+                        [IMAGEM: Café Maratá]
+                    </div>
+                    <h4 class="text-2xl font-bold text-text-dark mb-1">Café Maratá (500g)</h4>
+                    <p class="text-gray-500 mb-4">Seu café de todo dia com um super desconto.</p>
+                    
+                    <p class="text-lg text-gray-400 line-through">De R$ 17,99</p>
+                    <p class="text-5xl font-extrabold text-price-red">R$ 15,<span class="text-4xl">99</span></p>
+                    
+                    <button class="mt-4 w-full py-2 bg-price-red text-text-light font-bold rounded-lg hover:bg-red-700 transition duration-300">
+                        Comprar / Adicionar ao Pedido
+                    </button>
+                </div>
+
+                <div class="bg-light-bg p-6 rounded-xl shadow-md border-t-4 border-primary-yellow hover:shadow-xl transition duration-300">
+                    <div class="bg-gray-300 h-40 flex items-center justify-center rounded-lg mb-4 text-gray-700 font-semibold">
+                        [IMAGEM: Detergente 500ml]
+                    </div>
+                    <h4 class="text-2xl font-bold text-text-dark mb-1">Detergente (Neutral)</h4>
+                    <p class="text-gray-500 mb-4">Brilho e economia para sua louça.</p>
+
+                    <p class="text-lg text-gray-400 line-through">De R$ 2,89</p>
+                    <p class="text-5xl font-extrabold text-price-red">R$ 1,<span class="text-4xl">99</span></p>
+
+                    <button class="mt-4 w-full py-2 bg-price-red text-text-light font-bold rounded-lg hover:bg-red-700 transition duration-300">
+                        Comprar / Adicionar ao Pedido
+                    </button>
+                </div>
+                
+                <div class="bg-light-bg p-6 rounded-xl shadow-md border-t-4 border-primary-yellow hover:shadow-xl transition duration-300">
+                    <div class="bg-gray-300 h-40 flex items-center justify-center rounded-lg mb-4 text-gray-700 font-semibold">
+                        [IMAGEM: Sabonete Barra]
+                    </div>
+                    <h4 class="text-2xl font-bold text-text-dark mb-1">Sabonete (Unidade)</h4>
+                    <p class="text-gray-500 mb-4">Higiene e cuidado para toda a família.</p>
+                    
+                    <p class="text-lg text-gray-400 line-through">De R$ 1,50</p>
+                    <p class="text-5xl font-extrabold text-price-red">R$ 0,<span class="text-4xl">99</span></p>
+
+                    <button class="mt-4 w-full py-2 bg-price-red text-text-light font-bold rounded-lg hover:bg-red-700 transition duration-300">
+                        Comprar / Adicionar ao Pedido
+                    </button>
+                </div>
+
+            </div>
+            
+            <div class="mt-12">
+                <a href="https://wa.me/5574988357144" target="_blank" class="w-full md:w-auto inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-xl shadow-lg text-text-dark bg-primary-yellow hover:bg-yellow-400 transition duration-300 transform hover:scale-105 font-bold text-lg">
+                    VER MAIS PRODUTOS E FAZER O PEDIDO!
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="localizacao" class="py-16 bg-light-bg">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h3 class="text-4xl font-extrabold text-text-dark mb-4">
+                Venha nos Visitar ou Peça Online!
+            </h3>
+            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                Estamos no coração do bairro, prontos para atendê-lo com a qualidade e o preço que você merece.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-left">
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-primary-yellow">
+                    <h4 class="text-2xl font-bold text-text-dark mb-4">Detalhes do Mercadinho Silva</h4>
+                    
+                    <p class="text-lg mb-4">
+                        <i class="fas fa-map-marker-alt text-price-red mr-3"></i> 
+                        **Endereço:** Povoado de Várzea de Dentro 2, Umburanas/BA
+                    </p>
+                    <p class="text-lg mb-4">
+                        <i class="fas fa-clock text-primary-yellow mr-3"></i> 
+                        **Horário:** Segunda a Sexta: 7:00 às 18:30 | Sábado e Domingo: 8:00 às 18:00
+                    </p>
+                    <p class="text-lg mb-4">
+                        <i class="fas fa-phone-alt text-price-red mr-3"></i> 
+                        **Telefone:** (74) 98802-4231 (Falar com Ananda)
+                    </p>
+                    <p class="text-lg mb-4">
+                        <i class="fab fa-whatsapp text-primary-yellow mr-3"></i> 
+                        **WhatsApp:** (74) 98835-7144 (Falar com Joanderson)
+                    </p>
+
+                    <a href="Https://maps.app.goo.gl/r422VCFFSLcodmpt7" target="_blank" class="mt-4 inline-block px-6 py-3 bg-dark-bg text-text-light font-bold rounded-lg hover:bg-gray-700 transition duration-300">
+                        Ver no Mapa / Traçar Rota
+                    </a>
+                </div>
+                
+                <div class="bg-gray-300 h-80 rounded-xl overflow-hidden shadow-lg">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15664.130635955627!2d-41.042894170327785!3d-10.297441549646702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7048384b0051e57%3A0x6b3b3b3b3b3b3b3b!2sUmburanas%2C%20BA!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer id="contato" class="bg-dark-bg text-text-light p-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <h3 class="text-2xl font-bold text-primary-yellow mb-2">Fale Conosco e Peça Agora!</h3>
+            <div class="flex justify-center space-x-6">
+                <a href="tel:5574988357144" class="text-xl hover:text-primary-yellow transition duration-300">
+                    <i class="fas fa-phone-alt"></i> (74) 98835-7144
+                </a>
+                <a href="https://wa.me/5574988357144" target="_blank" class="text-xl hover:text-primary-yellow transition duration-300">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+            <p class="mt-4 text-sm">© 2024 Mercadinho Silva. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    </body>
+</html>
